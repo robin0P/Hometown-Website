@@ -1,7 +1,7 @@
 body {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -11,10 +11,104 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-bottom: 80px;
-    padding-top: 60px;
-    background-image: url()
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-bottom: 0;
+    background-image: url("/assets/photos/pexels-hakantahmaz-2656502.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#header-title {
+    background-color: #009FFD;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#header-comment {
+    background-color: #2A2A72;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#tbody {
+    background-color: #ffd3a0;
+    color: #2A2A72;
+    margin-top: 0px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#tbody-header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tbody-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tbody-photos {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.tbody-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    color: white;
+}
+
+#footer-background {
+    display: flex;
+    background-color: #34363a;
+    padding: 20px;
+    border-bottom: 20px solid black;
+    border-radius: 10px;
+}
+
+
+#footer-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
 }
